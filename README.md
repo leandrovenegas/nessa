@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Preview
 
-## Getting Started
+![basics](./src/demo/brew-thumbnail.png)
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Astrobrew is a free and open-source elegant landing page for Micro SaaS products built with Astro & Skeleton CSS
+
+### Live demo
+
+(https://brew.indiebold.com/)
+
+### Upgrade to Astrobrew Pro version
+
+(https://brewpro.indiebold.com/)
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   └── Features.astro
+        └── FinalCta.astro
+        └── Footer.astro
+        └── Header.astro
+        └── Hero.astro
+        └── HowToUse.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Score
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![basics](./src/demo/score.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧞 Commands
 
-## Learn More
+All commands are run from the root of the project, from a terminal:
 
-To learn more about Next.js, take a look at the following resources:
+| Command           | Action                                       |
+| :---------------- | :------------------------------------------- |
+| `pnpm install`     | Installs dependencies                        |
+| `pnpm dev`     | Starts local dev server at `localhost:3000`  |
+| `pnpm build`   | Build your production site to `./dist/`      |
+| `pnpm preview` | Preview your build locally, before deploying |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👀 Curious to Explore More?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Check out [LAB-CH3](https://github.com/LaB-CH3) for a growing collection of current and future templates.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you’ve found this helpful, consider fueling my creativity!  
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://ko-fi.com/indieteamofone)

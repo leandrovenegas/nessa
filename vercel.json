@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/producto/:path*", "destination": "https://nessacl.jumpseller.com/producto/:path*" },
-    { "source": "/cart/:path*", "destination": "https://nessacl.jumpseller.com/cart/:path*" },
-    { "source": "/checkout/:path*", "destination": "https://nessacl.jumpseller.com/checkout/:path*" },
-    { "source": "/assets/:path*", "destination": "https://nessacl.jumpseller.com/assets/:path*" }
-  ]
-}
